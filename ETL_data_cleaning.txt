@@ -1,0 +1,5 @@
+- Found currency values included 'INR', 'INR\r', 'USD', 'USD\r'.
+- Eliminated all 'INR\r' values (15,000 entries) as they were redundant.
+- Cleaned up 'USD', removed duplicate rows, and normalized currency.
+- Data ETL and cleaning for 'transactions' table is now complete.
+- See screenshot 'cleaned-transactions.jpg' for Power Query steps.
